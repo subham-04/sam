@@ -1,0 +1,52 @@
+// "Dosis" font for extended looking font
+
+// "Josefin Sans" for bolder fonts
+
+// For normal texts "M PLUS Rounded 1c" or "Noto Sans"
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Josefin+Sans:wght@400;500&family=M+PLUS+Rounded+1c:wght@300;400&family=Noto+Sans:wght@100;200;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+:root{
+
+// Colors
+--clr-purple:#751FFF;
+--clr-light:#fff;
+--clr-dark: #303030;
+--clr-accent: #16e0bd;
+
+// Block Shadow
+--bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+0.125em 0.125em 0.25em rgba(0,0,0,.15);
+// Fonts
+
+--ff-dosis: 'Dosis', sans-serif;
+--ff-josefin: 'Josefin Sans', sans-serif;
+--ff-m: 'M PLUS Rounded 1c', sans-serif;
+--ff-noto:'Noto Sans', sans-serif;
+--ff-pacifico: 'Pacifico', cursive;
+
+
+// Font Weight
+--fw-extra-light:200;
+--fw-light:300;
+--fw-less-bold:400;
+--fw-bold:500;
+
+// Font Size
+
+--fs-h1: 2.9rem;
+--fs-h2:2.55rem;
+--fs-h3:1.45rem;
+--fs-body:1.1rem;
+
+}
+@media (min-width:1000px){
+    :root{
+    --fs-h1:3.5rem;
+    --fs-h2:3.1rem;
+    --fs-h3:1.75rem;
+    --fs-body:1.2rem;
+    }
+}
