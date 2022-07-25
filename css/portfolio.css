@@ -326,7 +326,8 @@ header {
     width: min-content;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "img title" "img subtitle";
+        grid-template-areas: "img title"
+ "img subtitle";
     -ms-grid-columns: min-content max-content;
         grid-template-columns: -webkit-min-content -webkit-max-content;
         grid-template-columns: min-content max-content;
@@ -358,7 +359,7 @@ header {
 .my-services {
   margin-bottom: 4rem;
   background-color: var(--clr-dark);
-  background-image: url(/3.jpg);
+  background-image: url(./3.jpg);
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-size: cover;
@@ -517,7 +518,9 @@ header {
     display: grid;
     -ms-grid-columns: 1fr 12.5rem;
         grid-template-columns: 1fr 12.5rem;
-        grid-template-areas: "title img" "subtitle img" "text img";
+        grid-template-areas: "title img"
+ "subtitle img"
+ "text img";
     grid-column-gap: 6rem;
   }
   .about-me__img {
