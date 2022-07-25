@@ -359,7 +359,7 @@ header {
 .my-services {
   margin-bottom: 4rem;
   background-color: var(--clr-dark);
-  background-image: url("3.jpg");
+  background-image: url("./3.jpg");
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-size: cover;
