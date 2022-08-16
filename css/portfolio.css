@@ -152,6 +152,26 @@ section {
   display: block;
   font-family: var(--ff-josefin);
   font-weight: var(--fw-bold);
+  background-image: linear-gradient(to right, #751fff, #9b3bfd, #b855fc, #cf6ffb, #e389fc, #e28ffd, #e094fe, #df99fe, #c98cfe, #b081fe, #9177fe, #696eff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 300% 300%;
+            animation: gradient 5s ease-in-out infinite;
+}
+
+
+@keyframes gradient{
+  0%{
+    background-position: 0% 50%;
+  }
+  
+  50%{
+    background-position: 100% 50%;
+  }
+  
+  100%{
+    background-position: 0% 50%;
+  }
 }
 
 .section__subtitle {
